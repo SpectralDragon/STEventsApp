@@ -7,25 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06CCFB331EADC13A5E18F43F /* MeetingsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E08487B922084119B9E3071 /* MeetingsAssembly.m */; };
+		178EE98EBA5C6A2AE53FD9D2 /* MeetingsInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 411647B3FEC499AF9373B511 /* MeetingsInteractor.m */; };
+		1D2F3CEDD0C8E52DFF2587F6 /* MapViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9AF45E9F24863BBE609B05 /* MapViewModel.m */; };
+		3BAAD21E46450BCAE4346581 /* MeetingsPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AEEF34EE4D357F43AB3EE3 /* MeetingsPresenter.m */; };
+		52605455387310E313CE9FC1 /* MeetingsRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEA5CDEE1A656DA614946B6 /* MeetingsRouter.m */; };
+		91D7C76392316FE110D8D004 /* libPods-SberTech-Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D08ADEDE05A1342E91883B /* libPods-SberTech-Test.a */; };
+		EE9911DB85EAE44950189AC5 /* MeetingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C5F0C1DF09AEA7123CF31A /* MeetingsViewController.m */; };
+		EF3C17841F9BFA6900803D9B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3C17831F9BFA5E00803D9B /* MapKit.framework */; };
+		EF3C178D1F9C16C000803D9B /* MapAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C178C1F9C16C000803D9B /* MapAssembly.m */; };
+		EF3C17961F9C243B00803D9B /* NetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C17951F9C243B00803D9B /* NetworkService.m */; };
+		EF3C179B1F9C246C00803D9B /* NetworkServiceAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C179A1F9C246C00803D9B /* NetworkServiceAssembly.m */; };
+		EF3C17A11F9C2B4500803D9B /* URLRequestPath.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C17A01F9C2B4500803D9B /* URLRequestPath.m */; };
+		EF3C17A51F9C2D1D00803D9B /* Mapper.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C17A41F9C2D1D00803D9B /* Mapper.m */; };
 		EF63452A1F9AC65F00AC2704 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6345291F9AC65F00AC2704 /* AppDelegate.m */; };
-		EF63452D1F9AC65F00AC2704 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF63452C1F9AC65F00AC2704 /* ViewController.m */; };
 		EF6345301F9AC65F00AC2704 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF63452E1F9AC65F00AC2704 /* Main.storyboard */; };
 		EF6345321F9AC65F00AC2704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6345311F9AC65F00AC2704 /* Assets.xcassets */; };
 		EF6345351F9AC65F00AC2704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6345331F9AC65F00AC2704 /* LaunchScreen.storyboard */; };
 		EF6345381F9AC65F00AC2704 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6345371F9AC65F00AC2704 /* main.m */; };
+		EFA587751F9C358E00AC0A61 /* MeetingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA587741F9C358E00AC0A61 /* MeetingModel.m */; };
+		EFA587781F9C359A00AC0A61 /* OrganizationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA587771F9C359A00AC0A61 /* OrganizationModel.m */; };
+		EFA5877C1F9C46E700AC0A61 /* Vizit.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA5877B1F9C46E700AC0A61 /* Vizit.m */; };
+		F3F6C8E213B60CB2E674FB1F /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE69DF0F928A5D0120C1F975 /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E08487B922084119B9E3071 /* MeetingsAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MeetingsAssembly.m; sourceTree = "<group>"; };
+		0E33ABF03817547143A4D5D2 /* MeetingsInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeetingsInteractorOutput.h; sourceTree = "<group>"; };
+		0ED4D3B5AC32B762E25D9564 /* MeetingsModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeetingsModuleInput.h; sourceTree = "<group>"; };
+		186C6E7E63B93047D3DF76E0 /* MeetingsInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeetingsInteractor.h; sourceTree = "<group>"; };
+		1D3790AD00FDC485C24F42EF /* MeetingsRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeetingsRouter.h; sourceTree = "<group>"; };
+		34162532C5183AC4DB3B6F66 /* Pods-SberTech-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SberTech-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-SberTech-Test/Pods-SberTech-Test.release.xcconfig"; sourceTree = "<group>"; };
+		37A7E577D5218E054C4FDB4A /* MapViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		411647B3FEC499AF9373B511 /* MeetingsInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MeetingsInteractor.m; sourceTree = "<group>"; };
+		7C337D41F275F2BE02563069 /* MeetingsInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeetingsInteractorInput.h; sourceTree = "<group>"; };
+		97D08ADEDE05A1342E91883B /* libPods-SberTech-Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SberTech-Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43410EA4554DB1E3E24E255 /* MeetingsPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeetingsPresenter.h; sourceTree = "<group>"; };
+		A5FA0B891EE3467288A4C56D /* Pods-SberTech-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SberTech-Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SberTech-Test/Pods-SberTech-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		A9AEEF34EE4D357F43AB3EE3 /* MeetingsPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MeetingsPresenter.m; sourceTree = "<group>"; };
+		B580EBA59A739DAE1D27707D /* MeetingsViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeetingsViewInput.h; sourceTree = "<group>"; };
+		B8E84DB3EE7358E5DD47E0D6 /* MeetingsRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeetingsRouterInput.h; sourceTree = "<group>"; };
+		BB9AF45E9F24863BBE609B05 /* MapViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MapViewModel.m; sourceTree = "<group>"; };
+		BEAC07B9B843BC421BD217F8 /* MeetingsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeetingsViewController.h; sourceTree = "<group>"; };
+		C849C19351A36C2BCC8117CE /* MeetingsAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeetingsAssembly.h; sourceTree = "<group>"; };
+		CBA0C6CED596866A1C080C58 /* MeetingsViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeetingsViewOutput.h; sourceTree = "<group>"; };
+		DE69DF0F928A5D0120C1F975 /* MapViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		E6C5F0C1DF09AEA7123CF31A /* MeetingsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MeetingsViewController.m; sourceTree = "<group>"; };
+		E8407999017F6C8FCBB68C37 /* MapViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MapViewModel.h; sourceTree = "<group>"; };
+		EAEA5CDEE1A656DA614946B6 /* MeetingsRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MeetingsRouter.m; sourceTree = "<group>"; };
+		EF3C17831F9BFA5E00803D9B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EF3C178B1F9C16C000803D9B /* MapAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapAssembly.h; sourceTree = "<group>"; };
+		EF3C178C1F9C16C000803D9B /* MapAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapAssembly.m; sourceTree = "<group>"; };
+		EF3C17941F9C243B00803D9B /* NetworkService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkService.h; sourceTree = "<group>"; };
+		EF3C17951F9C243B00803D9B /* NetworkService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkService.m; sourceTree = "<group>"; };
+		EF3C17991F9C246C00803D9B /* NetworkServiceAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkServiceAssembly.h; sourceTree = "<group>"; };
+		EF3C179A1F9C246C00803D9B /* NetworkServiceAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkServiceAssembly.m; sourceTree = "<group>"; };
+		EF3C179F1F9C2B4500803D9B /* URLRequestPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLRequestPath.h; sourceTree = "<group>"; };
+		EF3C17A01F9C2B4500803D9B /* URLRequestPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLRequestPath.m; sourceTree = "<group>"; };
+		EF3C17A31F9C2D1D00803D9B /* Mapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mapper.h; sourceTree = "<group>"; };
+		EF3C17A41F9C2D1D00803D9B /* Mapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mapper.m; sourceTree = "<group>"; };
 		EF6345251F9AC65F00AC2704 /* SberTech-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SberTech-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6345281F9AC65F00AC2704 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EF6345291F9AC65F00AC2704 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EF63452B1F9AC65F00AC2704 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EF63452C1F9AC65F00AC2704 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EF63452F1F9AC65F00AC2704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF6345311F9AC65F00AC2704 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF6345341F9AC65F00AC2704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF6345361F9AC65F00AC2704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF6345371F9AC65F00AC2704 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFA587731F9C358E00AC0A61 /* MeetingModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeetingModel.h; sourceTree = "<group>"; };
+		EFA587741F9C358E00AC0A61 /* MeetingModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetingModel.m; sourceTree = "<group>"; };
+		EFA587761F9C359A00AC0A61 /* OrganizationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrganizationModel.h; sourceTree = "<group>"; };
+		EFA587771F9C359A00AC0A61 /* OrganizationModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrganizationModel.m; sourceTree = "<group>"; };
+		EFA5877A1F9C46E700AC0A61 /* Vizit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vizit.h; sourceTree = "<group>"; };
+		EFA5877B1F9C46E700AC0A61 /* Vizit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vizit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +87,247 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF3C17841F9BFA6900803D9B /* MapKit.framework in Frameworks */,
+				91D7C76392316FE110D8D004 /* libPods-SberTech-Test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52EC144984A6FE30C8E27F76 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B8E84DB3EE7358E5DD47E0D6 /* MeetingsRouterInput.h */,
+				1D3790AD00FDC485C24F42EF /* MeetingsRouter.h */,
+				EAEA5CDEE1A656DA614946B6 /* MeetingsRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		773928254DCF4BA3421E82EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B580EBA59A739DAE1D27707D /* MeetingsViewInput.h */,
+				CBA0C6CED596866A1C080C58 /* MeetingsViewOutput.h */,
+				BEAC07B9B843BC421BD217F8 /* MeetingsViewController.h */,
+				E6C5F0C1DF09AEA7123CF31A /* MeetingsViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E2C80D0ADA2B7CCFE7FA867 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				C849C19351A36C2BCC8117CE /* MeetingsAssembly.h */,
+				0E08487B922084119B9E3071 /* MeetingsAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		7F035D21227F091724382318 /* Meetings */ = {
+			isa = PBXGroup;
+			children = (
+				7E2C80D0ADA2B7CCFE7FA867 /* Assembly */,
+				773928254DCF4BA3421E82EB /* View */,
+				E08F6FB247959AE176CE4BEB /* Presenter */,
+				F8932CBEDE96E70C78140B6B /* Interactor */,
+				52EC144984A6FE30C8E27F76 /* Router */,
+			);
+			path = Meetings;
+			sourceTree = "<group>";
+		};
+		B961A56D25EC55C2C268F493 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5FA0B891EE3467288A4C56D /* Pods-SberTech-Test.debug.xcconfig */,
+				34162532C5183AC4DB3B6F66 /* Pods-SberTech-Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB979AD1B93BE1D0098A67BF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				37A7E577D5218E054C4FDB4A /* MapViewController.h */,
+				DE69DF0F928A5D0120C1F975 /* MapViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E08F6FB247959AE176CE4BEB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0ED4D3B5AC32B762E25D9564 /* MeetingsModuleInput.h */,
+				A43410EA4554DB1E3E24E255 /* MeetingsPresenter.h */,
+				A9AEEF34EE4D357F43AB3EE3 /* MeetingsPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E56B8E25D327E6FA70EA687F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E8407999017F6C8FCBB68C37 /* MapViewModel.h */,
+				BB9AF45E9F24863BBE609B05 /* MapViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EEDCACB002F3DB7C6314C03E /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				DB979AD1B93BE1D0098A67BF /* ViewController */,
+				E56B8E25D327E6FA70EA687F /* ViewModel */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		EF3C17811F9BBD9100803D9B /* CoreLayer */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C17971F9C244200803D9B /* Assemblies */,
+				EF3C17A21F9C2D0F00803D9B /* Mapper */,
+				EF3C17931F9C229F00803D9B /* NetworkService */,
+			);
+			path = CoreLayer;
+			sourceTree = "<group>";
+		};
+		EF3C17821F9BFA5D00803D9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C17831F9BFA5E00803D9B /* MapKit.framework */,
+				97D08ADEDE05A1342E91883B /* libPods-SberTech-Test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF3C17851F9BFAB700803D9B /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C17861F9BFAC100803D9B /* UserStories */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		EF3C17861F9BFAC100803D9B /* UserStories */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C17881F9C137100803D9B /* Assemblies */,
+				EEDCACB002F3DB7C6314C03E /* Map */,
+				EF63452E1F9AC65F00AC2704 /* Main.storyboard */,
+				7F035D21227F091724382318 /* Meetings */,
+			);
+			path = UserStories;
+			sourceTree = "<group>";
+		};
+		EF3C17881F9C137100803D9B /* Assemblies */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C17891F9C137E00803D9B /* MapAssembly */,
+			);
+			path = Assemblies;
+			sourceTree = "<group>";
+		};
+		EF3C17891F9C137E00803D9B /* MapAssembly */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C178B1F9C16C000803D9B /* MapAssembly.h */,
+				EF3C178C1F9C16C000803D9B /* MapAssembly.m */,
+			);
+			path = MapAssembly;
+			sourceTree = "<group>";
+		};
+		EF3C178A1F9C163900803D9B /* Assemblies */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assemblies;
+			sourceTree = "<group>";
+		};
+		EF3C17921F9C1C2B00803D9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF6345331F9AC65F00AC2704 /* LaunchScreen.storyboard */,
+				EF6345311F9AC65F00AC2704 /* Assets.xcassets */,
+				EF6345361F9AC65F00AC2704 /* Info.plist */,
+				EF6345371F9AC65F00AC2704 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF3C17931F9C229F00803D9B /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C17941F9C243B00803D9B /* NetworkService.h */,
+				EF3C17951F9C243B00803D9B /* NetworkService.m */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		EF3C17971F9C244200803D9B /* Assemblies */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C17981F9C245500803D9B /* NetworkServiceAssembly */,
+			);
+			path = Assemblies;
+			sourceTree = "<group>";
+		};
+		EF3C17981F9C245500803D9B /* NetworkServiceAssembly */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C17991F9C246C00803D9B /* NetworkServiceAssembly.h */,
+				EF3C179A1F9C246C00803D9B /* NetworkServiceAssembly.m */,
+			);
+			path = NetworkServiceAssembly;
+			sourceTree = "<group>";
+		};
+		EF3C179C1F9C2B1300803D9B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EFA587791F9C46D700AC0A61 /* Vizit */,
+				EF3C179E1F9C2B2900803D9B /* Meeting */,
+				EF3C179D1F9C2B1A00803D9B /* Organization */,
+				EF3C179F1F9C2B4500803D9B /* URLRequestPath.h */,
+				EF3C17A01F9C2B4500803D9B /* URLRequestPath.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EF3C179D1F9C2B1A00803D9B /* Organization */ = {
+			isa = PBXGroup;
+			children = (
+				EFA587761F9C359A00AC0A61 /* OrganizationModel.h */,
+				EFA587771F9C359A00AC0A61 /* OrganizationModel.m */,
+			);
+			path = Organization;
+			sourceTree = "<group>";
+		};
+		EF3C179E1F9C2B2900803D9B /* Meeting */ = {
+			isa = PBXGroup;
+			children = (
+				EFA587731F9C358E00AC0A61 /* MeetingModel.h */,
+				EFA587741F9C358E00AC0A61 /* MeetingModel.m */,
+			);
+			path = Meeting;
+			sourceTree = "<group>";
+		};
+		EF3C17A21F9C2D0F00803D9B /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C17A31F9C2D1D00803D9B /* Mapper.h */,
+				EF3C17A41F9C2D1D00803D9B /* Mapper.m */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
 		EF63451C1F9AC65F00AC2704 = {
 			isa = PBXGroup;
 			children = (
 				EF6345271F9AC65F00AC2704 /* SberTech-Test */,
 				EF6345261F9AC65F00AC2704 /* Products */,
+				EF3C17821F9BFA5D00803D9B /* Frameworks */,
+				B961A56D25EC55C2C268F493 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +342,35 @@
 		EF6345271F9AC65F00AC2704 /* SberTech-Test */ = {
 			isa = PBXGroup;
 			children = (
+				EF3C179C1F9C2B1300803D9B /* Models */,
+				EF3C178A1F9C163900803D9B /* Assemblies */,
+				EF3C17851F9BFAB700803D9B /* PresentationLayer */,
+				EF3C17811F9BBD9100803D9B /* CoreLayer */,
+				EF3C17921F9C1C2B00803D9B /* Supporting Files */,
 				EF6345281F9AC65F00AC2704 /* AppDelegate.h */,
 				EF6345291F9AC65F00AC2704 /* AppDelegate.m */,
-				EF63452B1F9AC65F00AC2704 /* ViewController.h */,
-				EF63452C1F9AC65F00AC2704 /* ViewController.m */,
-				EF63452E1F9AC65F00AC2704 /* Main.storyboard */,
-				EF6345311F9AC65F00AC2704 /* Assets.xcassets */,
-				EF6345331F9AC65F00AC2704 /* LaunchScreen.storyboard */,
-				EF6345361F9AC65F00AC2704 /* Info.plist */,
-				EF6345371F9AC65F00AC2704 /* main.m */,
 			);
 			path = "SberTech-Test";
+			sourceTree = "<group>";
+		};
+		EFA587791F9C46D700AC0A61 /* Vizit */ = {
+			isa = PBXGroup;
+			children = (
+				EFA5877A1F9C46E700AC0A61 /* Vizit.h */,
+				EFA5877B1F9C46E700AC0A61 /* Vizit.m */,
+			);
+			path = Vizit;
+			sourceTree = "<group>";
+		};
+		F8932CBEDE96E70C78140B6B /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				7C337D41F275F2BE02563069 /* MeetingsInteractorInput.h */,
+				0E33ABF03817547143A4D5D2 /* MeetingsInteractorOutput.h */,
+				186C6E7E63B93047D3DF76E0 /* MeetingsInteractor.h */,
+				411647B3FEC499AF9373B511 /* MeetingsInteractor.m */,
+			);
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +380,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF63453B1F9AC65F00AC2704 /* Build configuration list for PBXNativeTarget "SberTech-Test" */;
 			buildPhases = (
+				F8BE0EB057B6B16CC6D9041B /* [CP] Check Pods Manifest.lock */,
 				EF6345211F9AC65F00AC2704 /* Sources */,
 				EF6345221F9AC65F00AC2704 /* Frameworks */,
 				EF6345231F9AC65F00AC2704 /* Resources */,
+				44F146501D4C256CA808BF7F /* [CP] Embed Pods Frameworks */,
+				3A9A6C195BC85486C9EDCBB8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,14 +442,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A9A6C195BC85486C9EDCBB8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SberTech-Test/Pods-SberTech-Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44F146501D4C256CA808BF7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SberTech-Test/Pods-SberTech-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8BE0EB057B6B16CC6D9041B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF6345211F9AC65F00AC2704 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF63452D1F9AC65F00AC2704 /* ViewController.m in Sources */,
+				EF3C179B1F9C246C00803D9B /* NetworkServiceAssembly.m in Sources */,
+				EF3C178D1F9C16C000803D9B /* MapAssembly.m in Sources */,
+				EF3C17A11F9C2B4500803D9B /* URLRequestPath.m in Sources */,
+				EF3C17A51F9C2D1D00803D9B /* Mapper.m in Sources */,
 				EF6345381F9AC65F00AC2704 /* main.m in Sources */,
+				EFA587781F9C359A00AC0A61 /* OrganizationModel.m in Sources */,
+				EFA587751F9C358E00AC0A61 /* MeetingModel.m in Sources */,
 				EF63452A1F9AC65F00AC2704 /* AppDelegate.m in Sources */,
+				F3F6C8E213B60CB2E674FB1F /* MapViewController.m in Sources */,
+				1D2F3CEDD0C8E52DFF2587F6 /* MapViewModel.m in Sources */,
+				EF3C17961F9C243B00803D9B /* NetworkService.m in Sources */,
+				06CCFB331EADC13A5E18F43F /* MeetingsAssembly.m in Sources */,
+				EE9911DB85EAE44950189AC5 /* MeetingsViewController.m in Sources */,
+				EFA5877C1F9C46E700AC0A61 /* Vizit.m in Sources */,
+				3BAAD21E46450BCAE4346581 /* MeetingsPresenter.m in Sources */,
+				178EE98EBA5C6A2AE53FD9D2 /* MeetingsInteractor.m in Sources */,
+				52605455387310E313CE9FC1 /* MeetingsRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +585,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +634,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -276,29 +643,33 @@
 		};
 		EF63453C1F9AC65F00AC2704 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5FA0B891EE3467288A4C56D /* Pods-SberTech-Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8PYCRS3EA3;
-				INFOPLIST_FILE = "SberTech-Test/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SberTech-Test/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.vprusakov.SberTech-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		EF63453D1F9AC65F00AC2704 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34162532C5183AC4DB3B6F66 /* Pods-SberTech-Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8PYCRS3EA3;
-				INFOPLIST_FILE = "SberTech-Test/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SberTech-Test/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.vprusakov.SberTech-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
