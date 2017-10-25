@@ -8,13 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+@class Vizit;
+
 @protocol MeetingsModuleInput
 
-/**
- @author Vladislav Prusakov
-
- Метод инициирует стартовую конфигурацию текущего модуля
- */
-- (void)configureModule;
+- (void)didClickOnVizits:(NSArray<Vizit *> *)vizits;
 
 @end

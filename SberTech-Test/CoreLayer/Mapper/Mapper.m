@@ -17,8 +17,7 @@
     if (error) {
         NSLog(@"%s finish with error: %@", __PRETTY_FUNCTION__, error.localizedDescription);
         return nil;
-    }
-    
+    }    
     
     NSMutableArray *array = [NSMutableArray new];
     for (id json in jsonObject) {

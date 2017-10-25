@@ -13,11 +13,14 @@
 @protocol MeetingsViewInput;
 @protocol MeetingsInteractorInput;
 @protocol MeetingsRouterInput;
+@protocol MapModuleInput;
 
 @interface MeetingsPresenter : NSObject <MeetingsModuleInput, MeetingsViewOutput, MeetingsInteractorOutput>
 
 @property (nonatomic, weak) id<MeetingsViewInput> view;
 @property (nonatomic, strong) id<MeetingsInteractorInput> interactor;
 @property (nonatomic, strong) id<MeetingsRouterInput> router;
+
+@property (nonatomic, weak) id<MapModuleInput> moduleOutput;
 
 @end

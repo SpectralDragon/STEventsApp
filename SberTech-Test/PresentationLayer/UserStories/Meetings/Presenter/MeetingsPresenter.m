@@ -11,6 +11,7 @@
 #import "MeetingsViewInput.h"
 #import "MeetingsInteractorInput.h"
 #import "MeetingsRouterInput.h"
+#import "MapModuleInput.h"
 
 @implementation MeetingsPresenter
 
@@ -26,6 +27,10 @@
     [self.interactor getMeetings];
 }
 
+- (void)didSelectVizit:(id)vizit {
+	[self.moduleOutput configureWithVizit:vizit];
+}
+
 #pragma mark - Методы MeetingsInteractorOutput
 
 - (void)didFinishDownloadWithError:(NSError *)error {
@@ -34,6 +39,14 @@
 
 - (void)didFinishDownloadWithVizits:(NSArray<Vizit *> *)array {
     [self.view setupVizits:array];
+    [self.moduleOutput didSendVizits:array];
 }
+
+#pragma mark - Методы MeetingsModuleOutput
+
+- (void)didClickOnVizits:(NSArray<Vizit *> *)vizits {
+	[self.view selectVizits:vizits];
+}
+
 
 @end

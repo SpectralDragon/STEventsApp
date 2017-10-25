@@ -13,7 +13,7 @@
         <!--Map View Controller-->
         <scene sceneID="lT4-iR-q0j">
             <objects>
-                <viewController id="Iza-Z4-cI5" customClass="MapViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MapViewController" id="Iza-Z4-cI5" customClass="MapViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="h3n-He-kS9">
                         <rect key="frame" x="0.0" y="0.0" width="703.5" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -42,7 +42,7 @@
         <!--Root View Controller-->
         <scene sceneID="8x9-Bb-08A">
             <objects>
-                <tableViewController clearsSelectionOnViewWillAppear="NO" id="yNX-YB-EGl" customClass="MeetingsViewController" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="MeetingsViewController" clearsSelectionOnViewWillAppear="NO" id="yNX-YB-EGl" customClass="MeetingsViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="12l-4a-bBy">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -87,7 +87,7 @@
         <!--Split View Controller-->
         <scene sceneID="P13-WE-AZw">
             <objects>
-                <splitViewController id="ixe-Kq-gWj" sceneMemberID="viewController">
+                <splitViewController id="ixe-Kq-gWj" customClass="STSplitViewController" sceneMemberID="viewController">
                     <connections>
                         <segue destination="oLW-6I-eLJ" kind="relationship" relationship="masterViewController" id="aDl-hb-WtW"/>
                         <segue destination="Iza-Z4-cI5" kind="relationship" relationship="detailViewController" id="mer-Qx-bbf"/>

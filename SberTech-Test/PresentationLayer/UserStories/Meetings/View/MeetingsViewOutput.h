@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+@class Vizit;
 @protocol MeetingsViewOutput <NSObject>
 
 /**
@@ -16,5 +17,7 @@
  Метод сообщает презентеру о том, что view готова к работе
  */
 - (void)didTriggerViewReadyEvent;
+
+- (void)didSelectVizit:(Vizit *)vizit;
 
 @end

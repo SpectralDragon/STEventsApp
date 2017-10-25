@@ -37,7 +37,7 @@
                                     return;
                                 }
                                 
-                                [weakSelf.networkService taskOnRequest:[URLRequestPath meetingsRequest]
+                                [weakSelf.networkService taskOnRequest:[URLRequestPath organizationRequest]
                                                            costToClass:[OrganizationModel class]
                                                             completion:^(NSArray<OrganizationModel *> * _Nullable objects, NSError * _Nullable error) {
                                                                 
@@ -54,11 +54,15 @@
                                                                             vizit.meeting = meeting;
                                                                             vizit.organization = org;
                                                                             
+                                                                            if (!([[(Vizit *)[array lastObject] meeting].name
+                                                                                   isEqualToString:meeting.name])) {
+                                                                                [array addObject:vizit];
+                                                                            }
                                                                             
-                                                                            [array addObject:vizit];
                                                                         }
                                                                     }
                                                                 }
+                                                                
                                                                 [weakSelf didFinishDownloadWithVizit:array];
                                                             }];
                             }];

@@ -11,6 +11,7 @@
 #import "MeetingsViewInput.h"
 
 @protocol MeetingsViewOutput;
+@protocol MeetingsModuleInput;
 
 @interface MeetingsViewController : UITableViewController <MeetingsViewInput>
 

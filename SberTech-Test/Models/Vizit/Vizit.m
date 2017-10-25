@@ -10,4 +10,8 @@
 
 @implementation Vizit
 
+- (NSString *)description {
+	return [NSString stringWithFormat:@"%@ { meetgins: %@\n organization: %@\n}", self, self.meeting, self.organization];
+}
+
 @end

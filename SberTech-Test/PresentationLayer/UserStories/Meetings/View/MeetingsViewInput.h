@@ -16,5 +16,6 @@
 
 - (void)tellUserAboutServiceError:(NSError *)error;
 
+- (void)selectVizits:(NSArray<Vizit *> *)vizits;
 
 @end

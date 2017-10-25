@@ -8,11 +8,10 @@
 
 #import <Typhoon/Typhoon.h>
 
-/**
- @author Vladislav Prusakov
+@class MeetingsPresenter;
 
- Meetings module
- */
 @interface MeetingsAssembly : TyphoonAssembly
+
+- (MeetingsPresenter *)presenterMeetings;
 
 @end

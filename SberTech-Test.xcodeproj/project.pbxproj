@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		06CCFB331EADC13A5E18F43F /* MeetingsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E08487B922084119B9E3071 /* MeetingsAssembly.m */; };
 		178EE98EBA5C6A2AE53FD9D2 /* MeetingsInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 411647B3FEC499AF9373B511 /* MeetingsInteractor.m */; };
-		1D2F3CEDD0C8E52DFF2587F6 /* MapViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9AF45E9F24863BBE609B05 /* MapViewModel.m */; };
+		386759027E620E8311C8D353 /* MapInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5897844A705D18095502EF64 /* MapInteractor.m */; };
 		3BAAD21E46450BCAE4346581 /* MeetingsPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AEEF34EE4D357F43AB3EE3 /* MeetingsPresenter.m */; };
 		52605455387310E313CE9FC1 /* MeetingsRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEA5CDEE1A656DA614946B6 /* MeetingsRouter.m */; };
+		8D75E215A9F64AFC7E324E3A /* MapRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A78692483ACC26300BDF0E8 /* MapRouter.m */; };
 		91D7C76392316FE110D8D004 /* libPods-SberTech-Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D08ADEDE05A1342E91883B /* libPods-SberTech-Test.a */; };
+		929A5A3828DB6B96B3A4B627 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844B2F1C813949C97128B9C1 /* MapViewController.m */; };
 		EE9911DB85EAE44950189AC5 /* MeetingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C5F0C1DF09AEA7123CF31A /* MeetingsViewController.m */; };
+		EEFB23625379399801C2F40F /* MapPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C0B8DBBAA7ECAF56F01E89 /* MapPresenter.m */; };
 		EF3C17841F9BFA6900803D9B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3C17831F9BFA5E00803D9B /* MapKit.framework */; };
-		EF3C178D1F9C16C000803D9B /* MapAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C178C1F9C16C000803D9B /* MapAssembly.m */; };
 		EF3C17961F9C243B00803D9B /* NetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C17951F9C243B00803D9B /* NetworkService.m */; };
 		EF3C179B1F9C246C00803D9B /* NetworkServiceAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C179A1F9C246C00803D9B /* NetworkServiceAssembly.m */; };
 		EF3C17A11F9C2B4500803D9B /* URLRequestPath.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C17A01F9C2B4500803D9B /* URLRequestPath.m */; };
@@ -25,10 +27,11 @@
 		EF6345321F9AC65F00AC2704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6345311F9AC65F00AC2704 /* Assets.xcassets */; };
 		EF6345351F9AC65F00AC2704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6345331F9AC65F00AC2704 /* LaunchScreen.storyboard */; };
 		EF6345381F9AC65F00AC2704 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6345371F9AC65F00AC2704 /* main.m */; };
+		EF6CB1F11FA0A07F004C41C5 /* STSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6CB1F01FA0A07F004C41C5 /* STSplitViewController.m */; };
 		EFA587751F9C358E00AC0A61 /* MeetingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA587741F9C358E00AC0A61 /* MeetingModel.m */; };
 		EFA587781F9C359A00AC0A61 /* OrganizationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA587771F9C359A00AC0A61 /* OrganizationModel.m */; };
 		EFA5877C1F9C46E700AC0A61 /* Vizit.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA5877B1F9C46E700AC0A61 /* Vizit.m */; };
-		F3F6C8E213B60CB2E674FB1F /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE69DF0F928A5D0120C1F975 /* MapViewController.m */; };
+		F1859069440A69529EA4A2E9 /* MapAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 983E1E9691234A3CFAA68CA4 /* MapAssembly.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,27 +40,36 @@
 		0ED4D3B5AC32B762E25D9564 /* MeetingsModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeetingsModuleInput.h; sourceTree = "<group>"; };
 		186C6E7E63B93047D3DF76E0 /* MeetingsInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeetingsInteractor.h; sourceTree = "<group>"; };
 		1D3790AD00FDC485C24F42EF /* MeetingsRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeetingsRouter.h; sourceTree = "<group>"; };
+		2D47243AED22570514CFB20C /* MapViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MapViewInput.h; sourceTree = "<group>"; };
 		34162532C5183AC4DB3B6F66 /* Pods-SberTech-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SberTech-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-SberTech-Test/Pods-SberTech-Test.release.xcconfig"; sourceTree = "<group>"; };
-		37A7E577D5218E054C4FDB4A /* MapViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		3E94F27EA54AB9BDD2B0971D /* MapViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MapViewOutput.h; sourceTree = "<group>"; };
 		411647B3FEC499AF9373B511 /* MeetingsInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MeetingsInteractor.m; sourceTree = "<group>"; };
+		5897844A705D18095502EF64 /* MapInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MapInteractor.m; sourceTree = "<group>"; };
+		608AE01529EBE2F5DD0119E0 /* MapRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MapRouterInput.h; sourceTree = "<group>"; };
+		625260ACC5D61F260FBCF016 /* MapViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		656E5B5D4532EDAEE2EA8FE3 /* MapInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MapInteractor.h; sourceTree = "<group>"; };
+		6A78692483ACC26300BDF0E8 /* MapRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MapRouter.m; sourceTree = "<group>"; };
+		78EFF7C219B8EE86801AC245 /* MapRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MapRouter.h; sourceTree = "<group>"; };
 		7C337D41F275F2BE02563069 /* MeetingsInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeetingsInteractorInput.h; sourceTree = "<group>"; };
+		83096CE0970172DBEFB57AB2 /* MapModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MapModuleInput.h; sourceTree = "<group>"; };
+		844B2F1C813949C97128B9C1 /* MapViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		97D08ADEDE05A1342E91883B /* libPods-SberTech-Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SberTech-Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		983E1E9691234A3CFAA68CA4 /* MapAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MapAssembly.m; sourceTree = "<group>"; };
 		A43410EA4554DB1E3E24E255 /* MeetingsPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeetingsPresenter.h; sourceTree = "<group>"; };
 		A5FA0B891EE3467288A4C56D /* Pods-SberTech-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SberTech-Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SberTech-Test/Pods-SberTech-Test.debug.xcconfig"; sourceTree = "<group>"; };
 		A9AEEF34EE4D357F43AB3EE3 /* MeetingsPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MeetingsPresenter.m; sourceTree = "<group>"; };
 		B580EBA59A739DAE1D27707D /* MeetingsViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeetingsViewInput.h; sourceTree = "<group>"; };
 		B8E84DB3EE7358E5DD47E0D6 /* MeetingsRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeetingsRouterInput.h; sourceTree = "<group>"; };
-		BB9AF45E9F24863BBE609B05 /* MapViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MapViewModel.m; sourceTree = "<group>"; };
 		BEAC07B9B843BC421BD217F8 /* MeetingsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeetingsViewController.h; sourceTree = "<group>"; };
+		C3B9C9022B1396A1B66B0902 /* MapInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MapInteractorInput.h; sourceTree = "<group>"; };
+		C4ADBE610757A20861E188C2 /* MapInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MapInteractorOutput.h; sourceTree = "<group>"; };
 		C849C19351A36C2BCC8117CE /* MeetingsAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeetingsAssembly.h; sourceTree = "<group>"; };
 		CBA0C6CED596866A1C080C58 /* MeetingsViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MeetingsViewOutput.h; sourceTree = "<group>"; };
-		DE69DF0F928A5D0120C1F975 /* MapViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		D00E3FB4E7344784E63690DA /* MapAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MapAssembly.h; sourceTree = "<group>"; };
+		D9C0B8DBBAA7ECAF56F01E89 /* MapPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MapPresenter.m; sourceTree = "<group>"; };
 		E6C5F0C1DF09AEA7123CF31A /* MeetingsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MeetingsViewController.m; sourceTree = "<group>"; };
-		E8407999017F6C8FCBB68C37 /* MapViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MapViewModel.h; sourceTree = "<group>"; };
 		EAEA5CDEE1A656DA614946B6 /* MeetingsRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MeetingsRouter.m; sourceTree = "<group>"; };
 		EF3C17831F9BFA5E00803D9B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		EF3C178B1F9C16C000803D9B /* MapAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapAssembly.h; sourceTree = "<group>"; };
-		EF3C178C1F9C16C000803D9B /* MapAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapAssembly.m; sourceTree = "<group>"; };
 		EF3C17941F9C243B00803D9B /* NetworkService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkService.h; sourceTree = "<group>"; };
 		EF3C17951F9C243B00803D9B /* NetworkService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkService.m; sourceTree = "<group>"; };
 		EF3C17991F9C246C00803D9B /* NetworkServiceAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkServiceAssembly.h; sourceTree = "<group>"; };
@@ -74,12 +86,15 @@
 		EF6345341F9AC65F00AC2704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF6345361F9AC65F00AC2704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF6345371F9AC65F00AC2704 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF6CB1EF1FA0A07F004C41C5 /* STSplitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STSplitViewController.h; sourceTree = "<group>"; };
+		EF6CB1F01FA0A07F004C41C5 /* STSplitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STSplitViewController.m; sourceTree = "<group>"; };
 		EFA587731F9C358E00AC0A61 /* MeetingModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeetingModel.h; sourceTree = "<group>"; };
 		EFA587741F9C358E00AC0A61 /* MeetingModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetingModel.m; sourceTree = "<group>"; };
 		EFA587761F9C359A00AC0A61 /* OrganizationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrganizationModel.h; sourceTree = "<group>"; };
 		EFA587771F9C359A00AC0A61 /* OrganizationModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrganizationModel.m; sourceTree = "<group>"; };
 		EFA5877A1F9C46E700AC0A61 /* Vizit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vizit.h; sourceTree = "<group>"; };
 		EFA5877B1F9C46E700AC0A61 /* Vizit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vizit.m; sourceTree = "<group>"; };
+		F2471ED7CC1A8DBFFEEF47DD /* MapPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MapPresenter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +110,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17165DB8AEA4E7A1F930CE84 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				83096CE0970172DBEFB57AB2 /* MapModuleInput.h */,
+				F2471ED7CC1A8DBFFEEF47DD /* MapPresenter.h */,
+				D9C0B8DBBAA7ECAF56F01E89 /* MapPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1DAD51609A5BB83177270A5B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				608AE01529EBE2F5DD0119E0 /* MapRouterInput.h */,
+				78EFF7C219B8EE86801AC245 /* MapRouter.h */,
+				6A78692483ACC26300BDF0E8 /* MapRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		52EC144984A6FE30C8E27F76 /* Router */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +138,28 @@
 				EAEA5CDEE1A656DA614946B6 /* MeetingsRouter.m */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		5E084B223440E932DB31AEBE /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C3B9C9022B1396A1B66B0902 /* MapInteractorInput.h */,
+				C4ADBE610757A20861E188C2 /* MapInteractorOutput.h */,
+				656E5B5D4532EDAEE2EA8FE3 /* MapInteractor.h */,
+				5897844A705D18095502EF64 /* MapInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		619E5626C4478AD8B02EFF20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D47243AED22570514CFB20C /* MapViewInput.h */,
+				3E94F27EA54AB9BDD2B0971D /* MapViewOutput.h */,
+				625260ACC5D61F260FBCF016 /* MapViewController.h */,
+				844B2F1C813949C97128B9C1 /* MapViewController.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		773928254DCF4BA3421E82EB /* View */ = {
@@ -137,6 +194,18 @@
 			path = Meetings;
 			sourceTree = "<group>";
 		};
+		985168F092F1DF8FAB8D7E24 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				E1750DA71A37D0125254D622 /* Assembly */,
+				619E5626C4478AD8B02EFF20 /* View */,
+				17165DB8AEA4E7A1F930CE84 /* Presenter */,
+				5E084B223440E932DB31AEBE /* Interactor */,
+				1DAD51609A5BB83177270A5B /* Router */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 		B961A56D25EC55C2C268F493 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,15 +213,6 @@
 				34162532C5183AC4DB3B6F66 /* Pods-SberTech-Test.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		DB979AD1B93BE1D0098A67BF /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				37A7E577D5218E054C4FDB4A /* MapViewController.h */,
-				DE69DF0F928A5D0120C1F975 /* MapViewController.m */,
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 		E08F6FB247959AE176CE4BEB /* Presenter */ = {
@@ -165,22 +225,13 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
-		E56B8E25D327E6FA70EA687F /* ViewModel */ = {
+		E1750DA71A37D0125254D622 /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
-				E8407999017F6C8FCBB68C37 /* MapViewModel.h */,
-				BB9AF45E9F24863BBE609B05 /* MapViewModel.m */,
+				D00E3FB4E7344784E63690DA /* MapAssembly.h */,
+				983E1E9691234A3CFAA68CA4 /* MapAssembly.m */,
 			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		EEDCACB002F3DB7C6314C03E /* Map */ = {
-			isa = PBXGroup;
-			children = (
-				DB979AD1B93BE1D0098A67BF /* ViewController */,
-				E56B8E25D327E6FA70EA687F /* ViewModel */,
-			);
-			path = Map;
+			path = Assembly;
 			sourceTree = "<group>";
 		};
 		EF3C17811F9BBD9100803D9B /* CoreLayer */ = {
@@ -213,29 +264,12 @@
 		EF3C17861F9BFAC100803D9B /* UserStories */ = {
 			isa = PBXGroup;
 			children = (
-				EF3C17881F9C137100803D9B /* Assemblies */,
-				EEDCACB002F3DB7C6314C03E /* Map */,
+				EF6CB1EE1FA0A065004C41C5 /* SplitViewController */,
 				EF63452E1F9AC65F00AC2704 /* Main.storyboard */,
 				7F035D21227F091724382318 /* Meetings */,
+				985168F092F1DF8FAB8D7E24 /* Map */,
 			);
 			path = UserStories;
-			sourceTree = "<group>";
-		};
-		EF3C17881F9C137100803D9B /* Assemblies */ = {
-			isa = PBXGroup;
-			children = (
-				EF3C17891F9C137E00803D9B /* MapAssembly */,
-			);
-			path = Assemblies;
-			sourceTree = "<group>";
-		};
-		EF3C17891F9C137E00803D9B /* MapAssembly */ = {
-			isa = PBXGroup;
-			children = (
-				EF3C178B1F9C16C000803D9B /* MapAssembly.h */,
-				EF3C178C1F9C16C000803D9B /* MapAssembly.m */,
-			);
-			path = MapAssembly;
 			sourceTree = "<group>";
 		};
 		EF3C178A1F9C163900803D9B /* Assemblies */ = {
@@ -351,6 +385,15 @@
 				EF6345291F9AC65F00AC2704 /* AppDelegate.m */,
 			);
 			path = "SberTech-Test";
+			sourceTree = "<group>";
+		};
+		EF6CB1EE1FA0A065004C41C5 /* SplitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EF6CB1EF1FA0A07F004C41C5 /* STSplitViewController.h */,
+				EF6CB1F01FA0A07F004C41C5 /* STSplitViewController.m */,
+			);
+			path = SplitViewController;
 			sourceTree = "<group>";
 		};
 		EFA587791F9C46D700AC0A61 /* Vizit */ = {
@@ -495,16 +538,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF6CB1F11FA0A07F004C41C5 /* STSplitViewController.m in Sources */,
 				EF3C179B1F9C246C00803D9B /* NetworkServiceAssembly.m in Sources */,
-				EF3C178D1F9C16C000803D9B /* MapAssembly.m in Sources */,
 				EF3C17A11F9C2B4500803D9B /* URLRequestPath.m in Sources */,
 				EF3C17A51F9C2D1D00803D9B /* Mapper.m in Sources */,
 				EF6345381F9AC65F00AC2704 /* main.m in Sources */,
 				EFA587781F9C359A00AC0A61 /* OrganizationModel.m in Sources */,
 				EFA587751F9C358E00AC0A61 /* MeetingModel.m in Sources */,
 				EF63452A1F9AC65F00AC2704 /* AppDelegate.m in Sources */,
-				F3F6C8E213B60CB2E674FB1F /* MapViewController.m in Sources */,
-				1D2F3CEDD0C8E52DFF2587F6 /* MapViewModel.m in Sources */,
 				EF3C17961F9C243B00803D9B /* NetworkService.m in Sources */,
 				06CCFB331EADC13A5E18F43F /* MeetingsAssembly.m in Sources */,
 				EE9911DB85EAE44950189AC5 /* MeetingsViewController.m in Sources */,
@@ -512,6 +553,11 @@
 				3BAAD21E46450BCAE4346581 /* MeetingsPresenter.m in Sources */,
 				178EE98EBA5C6A2AE53FD9D2 /* MeetingsInteractor.m in Sources */,
 				52605455387310E313CE9FC1 /* MeetingsRouter.m in Sources */,
+				F1859069440A69529EA4A2E9 /* MapAssembly.m in Sources */,
+				929A5A3828DB6B96B3A4B627 /* MapViewController.m in Sources */,
+				EEFB23625379399801C2F40F /* MapPresenter.m in Sources */,
+				386759027E620E8311C8D353 /* MapInteractor.m in Sources */,
+				8D75E215A9F64AFC7E324E3A /* MapRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
